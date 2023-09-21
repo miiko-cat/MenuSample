@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
             // それ以外
             else ->
                 // 親クラスの同名メソッドを呼び出し、その戻り値をreturnValとする
-                returnVal = super.onOptionsItemSelected(item)
+                returnVal = super.onContextItemSelected(item)
         }
         return returnVal
     }
